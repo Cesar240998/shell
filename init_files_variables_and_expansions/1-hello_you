@@ -1,2 +1,2 @@
 #!/bin/bash
-myvar=$(whoami)|echo "hello $myvar"
+echo "Hello $USER"
