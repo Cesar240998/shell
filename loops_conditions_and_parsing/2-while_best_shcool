@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script is displaying "Best School" 10 times.
+cont=0
+term=9
+while [ $term -ge $cont ]; do
+	echo "Best School"
+	((cont=cont+1));
+done
