@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This script is displaying "Best School" 10 times.
+less /etc/passwd | cut -d':' -f1,3,6 | while read -r Cont
+do 
+	echo "$Cont"
+done
