@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 #This script is displaying "Best School" 10 times.
-school=/shell/loops_conditions_and_parsing/school
-if test -e "$school"
+SchoolFile=school
+if test -e "$SchoolFile"
 then
 	echo "school file exists"
-	if [ -s $school ]
+	if [ -s $SchoolFile ]
 	then
 		echo "school file is not empty"
 	else
 		echo "school file is empty"
 	fi
-	if [ -f $school ]
+	if [ -f $SchoolFile ]
 	then
 		echo "school is a regular file"
 	fi
