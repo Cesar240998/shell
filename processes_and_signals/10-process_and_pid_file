@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Listing processes
 sudo touch /var/run/holbertonscript.pid
-echo $$ > /var/run/holbertonscript.pid
+echo $$ >> /var/run/holbertonscript.pid
 deleteandkill(){ sudo rm /var/run/myscript.pid; exit; }
 
 trap 'echo "Y U no love me?!"' SIGINT
